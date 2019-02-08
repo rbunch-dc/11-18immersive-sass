@@ -35,4 +35,58 @@ ul li ul li {
   border-radius: 5px;
 }
 
+li:hover {
+  transition: all 2s;
+  position: relative;
+  left: 1100px;
+}
+
+.col-1 {
+  width: 100%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 33.3333333333%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 20%;
+}
+
+.col-6 {
+  width: 16.6666666667%;
+}
+
+.col-7 {
+  width: 14.2857142857%;
+}
+
+.col-8 {
+  width: 12.5%;
+}
+
+.col-9 {
+  width: 11.1111111111%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-11 {
+  width: 9.0909090909%;
+}
+
+.col-12 {
+  width: 8.3333333333%;
+}
+
 /*# sourceMappingURL=styles.css.map */
