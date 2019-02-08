@@ -1,0 +1,52 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+// @import 'home.scss';
+// @import 'navbar.scss';
+// @import 'about.scss';
+
+.text{
+    font-size: 20px;
+    color: #000;
+    line-height: 20px;
+    background-color: blue;
+}
+
+body{
+    font-family: $font-stack;
+}
+
+// ul li{
+//     list-style-type: none;
+// }
+
+// ul li ul li{
+//     color: green;
+// }
+
+ul{
+    li{
+        list-style-type: none;
+        ul{
+            li{
+                color: green;
+            }
+        }
+    }
+}
+
+#header{
+    float: left;
+    ul{
+        background-color: #ddd;
+        float: left;
+        @include border-radius(10px);
+        li{
+            background-color: rosybrown;
+            @include border-radius(5px);
+        }
+    }
+}
+
+#content{
+    @extend .text;
+}

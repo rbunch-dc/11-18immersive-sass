@@ -1,0 +1,38 @@
+.text, #content {
+  font-size: 20px;
+  color: #000;
+  line-height: 20px;
+  background-color: blue;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+ul li ul li {
+  color: green;
+}
+
+#header {
+  float: left;
+}
+#header ul {
+  background-color: #ddd;
+  float: left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+#header ul li {
+  background-color: rosybrown;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
